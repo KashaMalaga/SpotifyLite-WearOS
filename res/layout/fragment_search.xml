@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.spotify.lite.hubs.HubsView android:id="@id/hubs_view" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.SearchView android:id="@id/search_view" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="?actionBarSize" android:iconifiedByDefault="false" app:iconifiedByDefault="false" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:queryHint="@string/search_hint_text" style="@style/Widget.Lite.SearchView" />
+    <LinearLayout android:orientation="vertical" android:id="@id/search_initial_state" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/search_view">
+        <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/search_initial_text" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/gray_70" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/search_initial_subtext" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

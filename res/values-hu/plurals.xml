@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="favorite_shows_downloaded_episodes_subtitle">
+        <item quantity="other">%1$d epizód</item>
+        <item quantity="one">%1$d epizód</item>
+    </plurals>
+    <plurals name="favorite_songs_description">
+        <item quantity="other">%1$d kedvenc dal</item>
+        <item quantity="one">%1$d kedvenc dal</item>
+    </plurals>
+    <plurals name="language_onboarding_selected_count">
+        <item quantity="other">%1$d kiválasztva</item>
+        <item quantity="one">%1$d kiválasztva</item>
+    </plurals>
+    <plurals name="offline_notification_body">
+        <item quantity="other">%1$,d/%2$,d (%3$,d%% kész)</item>
+        <item quantity="one">%1$,d/%2$,d (%3$,d%% kész)</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="other">%1$d jegyű kódot tartalmazó SMS-t küldtünk a(z) %2$s telefonszámra.</item>
+        <item quantity="one">%1$d jegyű kódot tartalmazó SMS-t küldtünk a(z) %2$s telefonszámra.</item>
+    </plurals>
+    <plurals name="time_format_hours">
+        <item quantity="other">%1$d óra</item>
+        <item quantity="one">%1$d óra</item>
+    </plurals>
+    <plurals name="time_format_min">
+        <item quantity="other">%1$d perc</item>
+        <item quantity="one">%1$d perc</item>
+    </plurals>
+</resources>

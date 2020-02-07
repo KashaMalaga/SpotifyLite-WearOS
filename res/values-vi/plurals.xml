@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="favorite_shows_downloaded_episodes_subtitle">
+        <item quantity="other">%1$d tập</item>
+    </plurals>
+    <plurals name="favorite_songs_description">
+        <item quantity="other">%1$d bài hát yêu thích</item>
+    </plurals>
+    <plurals name="language_onboarding_selected_count">
+        <item quantity="other">Đã chọn %1$d</item>
+    </plurals>
+    <plurals name="offline_notification_body">
+        <item quantity="other">%1$,d/%2$,d (%3$,d%% hoàn thành)</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="other">Chúng tôi đã gửi SMS kèm mã gồm %1$d chữ số tới %2$s.</item>
+    </plurals>
+    <plurals name="time_format_hours">
+        <item quantity="other">%1$d giờ</item>
+    </plurals>
+    <plurals name="time_format_min">
+        <item quantity="other">%1$d phút</item>
+    </plurals>
+</resources>

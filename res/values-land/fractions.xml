@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="header_cover_art_screen_width_percentage">20.000004%</fraction>
+    <fraction name="header_height_fraction_standard">29.999996%</fraction>
+    <fraction name="legacy_header_image_size">65.0%</fraction>
+</resources>

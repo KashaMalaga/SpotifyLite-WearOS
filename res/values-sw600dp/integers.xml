@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="context_menu_initial_visible_items">8</integer>
+    <integer name="design_snackbar_text_max_lines">1</integer>
+    <integer name="hugs_grid_columns">3</integer>
+    <integer name="hugs_grid_columns_land">5</integer>
+</resources>

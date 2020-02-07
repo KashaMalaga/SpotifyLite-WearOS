@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/calling_code_picker_root" android:background="@drawable/bg_signup_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/search_view_container" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.SearchView android:id="@id/search_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:iconifiedByDefault="false" app:queryHint="@string/calling_code_picker_search_hint" style="@style/Widget.Lite.Light.SearchView" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/search_view_container" />
+</androidx.constraintlayout.widget.ConstraintLayout>

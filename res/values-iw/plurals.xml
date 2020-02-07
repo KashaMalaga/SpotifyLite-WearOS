@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="error_dialog_body_resend_limit">
+        <item quantity="other">חכו %1$d שניות ואז בקשו קוד חדש</item>
+        <item quantity="one">חכו שנייה %1$d ואז בקשו קוד חדש</item>
+        <item quantity="two">חכו %1$d שניות ואז בקשו קוד חדש</item>
+        <item quantity="many">חכו %1$d שניות ואז בקשו קוד חדש</item>
+    </plurals>
+    <plurals name="favorite_shows_downloaded_episodes_subtitle">
+        <item quantity="other">%1$d פרקים</item>
+        <item quantity="one">%1$d פרק</item>
+        <item quantity="two">%1$d פרקים</item>
+        <item quantity="many">%1$d פרקים</item>
+    </plurals>
+    <plurals name="language_onboarding_selected_count">
+        <item quantity="other">נבחרו %1$d</item>
+        <item quantity="one">נבחרה %1$d</item>
+        <item quantity="two">נבחרו %1$d</item>
+        <item quantity="many">נבחרו %1$d</item>
+    </plurals>
+    <plurals name="offline_notification_body">
+        <item quantity="other">%1$,d מתוך %2$,d (%%%3$,d הסתיימו)</item>
+        <item quantity="one">%1$,d מתוך %2$,d (%%%3$,d הסתיימו)</item>
+        <item quantity="two">%1$,d מתוך %2$,d (%%%3$,d הסתיימו)</item>
+        <item quantity="many">%1$,d מתוך %2$,d (%%%3$,d הסתיימו)</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="other">שלחנו הודעת SMS עם קוד בן %1$d ספרות אל %2$s.</item>
+        <item quantity="one">שלחנו הודעת SMS עם קוד בן ספרה %1$d אל %2$s.</item>
+        <item quantity="two">שלחנו הודעת SMS עם קוד בן %1$d ספרות אל %2$s.</item>
+        <item quantity="many">שלחנו הודעת SMS עם קוד בן %1$d ספרות אל %2$s.</item>
+    </plurals>
+    <plurals name="time_format_hours">
+        <item quantity="other">%1$d שעות</item>
+        <item quantity="one">שעה %1$d</item>
+        <item quantity="two">%1$d שעות</item>
+        <item quantity="many">%1$d שעות</item>
+    </plurals>
+    <plurals name="time_format_min">
+        <item quantity="other">%1$d דקות</item>
+        <item quantity="one">דקה %1$d</item>
+        <item quantity="two">%1$d דקות</item>
+        <item quantity="many">%1$d דקות</item>
+    </plurals>
+</resources>

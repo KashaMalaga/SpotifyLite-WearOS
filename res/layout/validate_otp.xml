@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/validate_otp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.spotify.libs.otp.ui.OtpInputView android:id="@id/otp_input" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:gravity="center_horizontal" android:id="@id/otp_mismatch" android:padding="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance.Encore.Mesto" />
+    <TextView android:gravity="center_horizontal" android:id="@id/otp_description" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance.Encore.Mesto" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/validate_otp_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/button_validate_otp" android:filterTouchesWhenObscured="false" style="@style/Widget.Glue.Button.Primary.White" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/resend_sms" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_resend_sms" android:drawablePadding="@dimen/text_view_icon_padding" android:filterTouchesWhenObscured="true" style="@style/TextAppearance.Encore.Ballad" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/edit_phone_number" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_edit_phone_number" android:drawablePadding="@dimen/text_view_icon_padding" android:filterTouchesWhenObscured="true" style="@style/TextAppearance.Encore.Ballad" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.spotify.android.glue.components.toolbar.GlueToolbarLayout android:id="@id/toolbar" android:layout_width="0.0dip" android:layout_height="?actionBarSize" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <FrameLayout android:orientation="vertical" android:id="@id/sign_up_input_fields_container" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/login_page_margin_top" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" style="@style/SignupInputFieldsContainer">
+            <com.spotify.signup.view.EmailPasswordView android:id="@id/email_password" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.spotify.signup.view.BirthdayGenderView android:id="@id/birthday_gender" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <Button android:id="@id/sign_up_next_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/login_page_header_margin_top" android:layout_marginBottom="@dimen/login_page_header_margin_bottom" android:text="@string/signup_create_account_login_credentials_next" android:filterTouchesWhenObscured="false" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/sign_up_input_fields_container" style="?glueButtonPrimaryWhite" />
+        <ProgressBar android:id="@id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/signup_padding" app:layout_constraintBottom_toBottomOf="@id/sign_up_next_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/sign_up_next_button" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

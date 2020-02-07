@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="favorite_shows_downloaded_episodes_subtitle">
+        <item quantity="other">%1$d エピソード</item>
+    </plurals>
+    <plurals name="favorite_songs_description">
+        <item quantity="other">お気に入り：%1$d 曲</item>
+    </plurals>
+    <plurals name="language_onboarding_selected_count">
+        <item quantity="other">選択済み %1$d</item>
+    </plurals>
+    <plurals name="offline_notification_body">
+        <item quantity="other">%2$,d 個中 %1$,d 個ダウンロード済 (%3$,d%% 完了)</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="other">%1$d 桁のコードを SMS で %2$s 宛に送信しました。</item>
+    </plurals>
+    <plurals name="time_format_hours">
+        <item quantity="other">%1$d 時間</item>
+    </plurals>
+    <plurals name="time_format_min">
+        <item quantity="other">%1$d 分</item>
+    </plurals>
+</resources>

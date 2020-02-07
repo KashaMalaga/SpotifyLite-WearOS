@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <me.grantland.widget.AutofitTextView android:ellipsize="end" android:id="@android:id/text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/Widget.Header.Title" />
+    <TextView android:id="@android:id/text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/Widget.Header.Subtitle" />
+    <TextView android:id="@id/metadata" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:textAllCaps="true" style="@style/Widget.Header.Metadata" />
+</LinearLayout>

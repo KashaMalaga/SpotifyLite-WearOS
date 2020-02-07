@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="favorite_shows_downloaded_episodes_subtitle">
+        <item quantity="other">%1$d bölüm</item>
+        <item quantity="one">%1$d bölüm</item>
+    </plurals>
+    <plurals name="favorite_songs_description">
+        <item quantity="other">%1$d favori şarkı</item>
+        <item quantity="one">%1$d favori şarkı</item>
+    </plurals>
+    <plurals name="language_onboarding_selected_count">
+        <item quantity="other">%1$d seçildi</item>
+        <item quantity="one">%1$d seçildi</item>
+    </plurals>
+    <plurals name="offline_notification_body">
+        <item quantity="other">%1$,d / %2$,d (%%%3$,d tamamlandı)</item>
+        <item quantity="one">%1$,d / %2$,d (%%%3$,d tamamlandı)</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="other">%1$d basamaklı kod içeren kısa mesajı %2$s numarasına gönderdik.</item>
+        <item quantity="one">%1$d basamaklı kod içeren kısa mesajı %2$s numarasına gönderdik.</item>
+    </plurals>
+    <plurals name="time_format_hours">
+        <item quantity="other">%1$d saat</item>
+        <item quantity="one">%1$d saat</item>
+    </plurals>
+    <plurals name="time_format_min">
+        <item quantity="other">%1$d dk.</item>
+        <item quantity="one">%1$d dk.</item>
+    </plurals>
+</resources>

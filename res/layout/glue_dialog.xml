@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.glue.dialogs.GlueDialogLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/glue_dialog_background" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Glue.Dialog"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/content" android:paddingLeft="@dimen/glue_dialog_content_horizontal_margin" android:paddingRight="@dimen/glue_dialog_content_horizontal_margin" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+    <Button android:theme="@style/Overlay.DialogDarkButtonDim" android:id="@id/button_positive" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/glue_dialog_content_horizontal_margin" android:layout_marginTop="@dimen/glue_dialog_buttons_margin_no_scroll" android:layout_marginRight="@dimen/glue_dialog_content_horizontal_margin" android:layout_marginBottom="@dimen/glue_dialog_button_spacing" android:filterTouchesWhenObscured="false" style="?solarButtonPrimaryGreen" />
+    <Button android:id="@id/button_negative" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/glue_dialog_buttons_bottom_margin" android:filterTouchesWhenObscured="false" style="?solarButtonSecondary" />
+</com.spotify.glue.dialogs.GlueDialogLayout>

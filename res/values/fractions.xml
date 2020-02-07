@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="category_card_width_to_height_ratio">176.9989%</fraction>
+    <fraction name="header_cover_art_screen_width_percentage">45.000004%</fraction>
+    <fraction name="header_height_fraction_extra_reduced">35.000004%</fraction>
+    <fraction name="header_height_fraction_reduced">45.000004%</fraction>
+    <fraction name="header_height_fraction_standard">60.000004%</fraction>
+    <fraction name="legacy_header_image_size">45.000004%</fraction>
+</resources>

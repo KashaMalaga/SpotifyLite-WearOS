@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="plus_button" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="320.0" android:viewportHeight="320.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="circle" android:fillColor="#ff404040" android:pathData="M161,161m-160,0a160,160 0,1 1,320 0a160,160 0,1 1,-320 0" android:strokeWidth="1.0" />
+    <path android:name="plus" android:fillColor="#ffffffff" android:pathData="M 162.5 157.5 L 162.5 112.5 L 157.505 112.5 L 157.505 157.5 L 112.5 157.5 L 112.5 162.5 L 157.505 162.5 L 157.505 207.5 L 162.5 207.5 L 162.5 162.5 L 207.5 162.5 L 207.5 157.5 Z" android:strokeWidth="1.0" />
+</vector>

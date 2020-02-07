@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="error_dialog_body_resend_limit">
+        <item quantity="other">Подожди %1$d секунды и запроси новый код</item>
+        <item quantity="one">Подожди %1$d секунду и запроси новый код</item>
+        <item quantity="few">Подожди %1$d секунды и запроси новый код</item>
+        <item quantity="many">Подожди %1$d секунд и запроси новый код</item>
+    </plurals>
+    <plurals name="favorite_shows_downloaded_episodes_subtitle">
+        <item quantity="other">%1$d выпуска</item>
+        <item quantity="one">%1$d выпуск</item>
+        <item quantity="few">%1$d выпуска</item>
+        <item quantity="many">%1$d выпусков</item>
+    </plurals>
+    <plurals name="language_onboarding_selected_count">
+        <item quantity="other">Выбрано %1$d языка</item>
+        <item quantity="one">Выбран %1$d язык</item>
+        <item quantity="few">Выбрано %1$d языка</item>
+        <item quantity="many">Выбрано %1$d языков</item>
+    </plurals>
+    <plurals name="offline_notification_body">
+        <item quantity="other">%1$,d из %2$,d (%3$,d %%)</item>
+        <item quantity="one">%1$,d из %2$,d (%3$,d %%)</item>
+        <item quantity="few">%1$,d из %2$,d (%3$,d %%)</item>
+        <item quantity="many">%1$,d из %2$,d (%3$,d %%)</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="other">Мы отправили SMS с %1$d-значным кодом на номер %2$s.</item>
+        <item quantity="one">Мы отправили SMS с %1$d-значным кодом на номер %2$s.</item>
+        <item quantity="few">Мы отправили SMS с %1$d-значным кодом на номер %2$s.</item>
+        <item quantity="many">Мы отправили SMS с %1$d-значным кодом на номер %2$s.</item>
+    </plurals>
+    <plurals name="time_format_hours">
+        <item quantity="other">%1$d ч.</item>
+        <item quantity="one">%1$d ч.</item>
+        <item quantity="few">%1$d ч.</item>
+        <item quantity="many">%1$d ч.</item>
+    </plurals>
+    <plurals name="time_format_min">
+        <item quantity="other">%1$d мин.</item>
+        <item quantity="one">%1$d мин.</item>
+        <item quantity="few">%1$d мин.</item>
+        <item quantity="many">%1$d мин.</item>
+    </plurals>
+</resources>

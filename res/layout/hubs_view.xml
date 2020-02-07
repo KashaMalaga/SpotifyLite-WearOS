@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.spotify.android.glue.patterns.header.GlueHeaderLayout android:id="@id/glue_header_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/body" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_behavior="com.spotify.android.glue.patterns.header.behavior.GlueScrollingViewBehavior" />
+    </com.spotify.android.glue.patterns.header.GlueHeaderLayout>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="com.spotify.mobile.android.spotlets.common.recyclerview.FrameLayoutManager" />
+</merge>

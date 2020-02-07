@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageButton android:id="@id/top_bar_item_imageview" android:background="@null" android:padding="@dimen/context_menu_top_bar_button_padding" android:clickable="false" android:layout_width="@dimen/context_menu_top_bar_button_size" android:layout_height="@dimen/context_menu_top_bar_button_size" android:scaleType="centerCrop" />
+    <TextView android:textAppearance="?pasteTextAppearanceMicro" android:textColor="@color/white" android:ellipsize="end" android:id="@id/top_bar_item_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/context_menu_top_bar_text_margin" android:layout_marginBottom="@dimen/context_menu_top_bar_text_margin" android:maxLines="1" />
+</LinearLayout>

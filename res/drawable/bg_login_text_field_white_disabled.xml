@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/login_text_field_not_focused_white" />
+    <size android:height="@dimen/login_text_field_height" />
+    <corners android:radius="@dimen/login_text_field_corner_radius" />
+</shape>

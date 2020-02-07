@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SignupInputFields"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/signup_create_account_birthday" style="@style/SignupInputFieldLabelText" />
+    <EditText android:id="@id/sign_up_age_text" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cursorVisible="false" android:inputType="none" style="@style/SignupFieldInput.White" />
+    <TextView android:id="@id/sign_up_age_error_message" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SignupFieldInputError" />
+    <TextView android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/signup_create_account_gender" style="@style/SignupInputFieldLabelText" />
+    <EditText android:id="@id/sign_up_gender_text" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusDown="@id/login_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cursorVisible="false" android:inputType="none" style="@style/SignupFieldInput.White" />
+    <TextView android:textAppearance="@style/SignUpTocTextAppearance" android:gravity="center_horizontal" android:id="@id/sign_up_terms" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_16dp" />
+    <TextView android:textAppearance="@style/SignUpTocTextAppearance" android:gravity="center_horizontal" android:id="@id/sign_up_policy" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

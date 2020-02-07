@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/glue_button_bordered_border_width" android:color="@color/white" />
+    <solid android:color="@color/pasteTransparent" />
+    <size android:height="@dimen/glue_button_bordered_height" />
+    <corners android:radius="@dimen/glue_button_bordered_corner_radius" />
+    <padding android:left="@dimen/glue_button_bordered_padding" android:top="0.0px" android:right="@dimen/glue_button_bordered_padding" android:bottom="0.0px" />
+</shape>

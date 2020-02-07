@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="context_menu_initial_visible_items">3</integer>
+    <item type="integer" name="hugs_grid_columns">@integer/hugs_grid_columns_land</item>
+</resources>

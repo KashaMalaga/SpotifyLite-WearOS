@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="vector" android:height="32.0dip" android:width="32.0dip" android:viewportWidth="32.0" android:viewportHeight="32.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="log_out">
+        <path android:name="vertical_stroke" android:fillColor="#ffffffff" android:pathData="M 16.941 16.941 L 16.941 3.765 L 15.059 3.765 L 15.059 16.941 Z" android:strokeWidth="1.0" />
+        <path android:name="circular_segment" android:pathData="M 8.679 8.679 C 4.636 12.722 4.636 19.278 8.679 23.321 C 12.722 27.364 19.278 27.364 23.321 23.321 C 27.364 19.278 27.364 12.722 23.321 8.679" android:strokeColor="#ffffffff" android:strokeWidth="1.882353" />
+    </group>
+</vector>

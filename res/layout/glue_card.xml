@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.spotify.paste.widgets.SquareImageView android:id="@android:id/icon" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="centerCrop" android:layout_weight="1.0" />
+    <TextView android:textAppearance="?pasteTextAppearanceBodySmallBold" android:textColor="@color/glue_card_title_color" android:ellipsize="end" android:gravity="center" android:id="@id/title" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:maxLines="2" app:fontLeading="16.0dip" />
+    <TextView android:textAppearance="?pasteTextAppearanceBodySmall" android:textColor="@color/glue_card_subtitle_color" android:ellipsize="end" android:gravity="center" android:id="@id/subtitle" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:maxLines="1" app:fontLeading="16.0dip" />
+</merge>

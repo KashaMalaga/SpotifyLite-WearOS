@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="favorite_shows_downloaded_episodes_subtitle">
+        <item quantity="other">%1$d episodios</item>
+        <item quantity="one">%1$d episodio</item>
+    </plurals>
+    <plurals name="favorite_songs_description">
+        <item quantity="other">%1$d canciones favoritas</item>
+        <item quantity="one">%1$d canciones favoritas</item>
+    </plurals>
+    <plurals name="language_onboarding_selected_count">
+        <item quantity="other">%1$d seleccionados</item>
+        <item quantity="one">%1$d seleccionado</item>
+    </plurals>
+    <plurals name="offline_notification_body">
+        <item quantity="other">%1$,d de %2$,d (%3$,d %% completado)</item>
+        <item quantity="one">%1$,d de %2$,d (%3$,d %% completado)</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="other">Hemos enviado un SMS con un código de %1$d cifras al %2$s.</item>
+        <item quantity="one">Hemos enviado un SMS con un código de %1$d cifra al %2$s.</item>
+    </plurals>
+    <plurals name="time_format_hours">
+        <item quantity="other">%1$d hr</item>
+        <item quantity="one">%1$d hr</item>
+    </plurals>
+    <plurals name="time_format_min">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+    </plurals>
+</resources>

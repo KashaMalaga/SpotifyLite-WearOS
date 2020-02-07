@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.paste.widgets.layouts.AspectRatioView android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/category_card_max_height" android:minHeight="64.0dip" app:aspectRatioViewAspectRatio="@fraction/category_card_width_to_height_ratio" app:aspectRatioViewRespectExactMeasures="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.spotify.android.paste.widget.RoundedCornerImageView android:id="@id/category_card_background" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/glue_category_card_background" android:scaleType="centerCrop" />
+        <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.spotify.paste.spotifyicon.SpotifyIconView android:id="@android:id/icon1" android:visibility="gone" android:duplicateParentState="true" android:layout_width="@dimen/category_card_icon_size" android:layout_height="@dimen/category_card_icon_size" android:layout_marginBottom="10.0dip" android:scaleType="fitCenter" android:layout_centerHorizontal="true" app:iconSize="@dimen/category_card_icon_size" />
+            <TextView android:textAppearance="?pasteTextAppearanceBodyMediumBold" android:textColor="@color/glue_card_title_color" android:ellipsize="end" android:gravity="center" android:id="@android:id/text1" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@android:id/icon1" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</com.spotify.paste.widgets.layouts.AspectRatioView>

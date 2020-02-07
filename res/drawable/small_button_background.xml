@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/white_30" />
+            <size android:height="@dimen/lite_button_small_height" />
+            <corners android:radius="@dimen/lite_button_small_corner_radius" />
+            <padding android:left="@dimen/lite_button_small_padding" android:right="@dimen/lite_button_small_padding" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/white_60" />
+            <size android:height="@dimen/lite_button_small_height" />
+            <corners android:radius="@dimen/lite_button_small_corner_radius" />
+            <padding android:left="@dimen/lite_button_small_padding" android:right="@dimen/lite_button_small_padding" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="@color/white_60" />
+            <size android:height="@dimen/lite_button_small_height" />
+            <corners android:radius="@dimen/lite_button_small_corner_radius" />
+            <padding android:left="@dimen/lite_button_small_padding" android:right="@dimen/lite_button_small_padding" />
+        </shape>
+    </item>
+    <item>
+        <shape
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/white" />
+            <size android:height="@dimen/lite_button_small_height" />
+            <corners android:radius="@dimen/lite_button_small_corner_radius" />
+            <padding android:left="@dimen/lite_button_small_padding" android:right="@dimen/lite_button_small_padding" />
+        </shape>
+    </item>
+</selector>

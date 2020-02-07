@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/play_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    <TextView android:textAppearance="@style/TextAppearance.Encore.Minuet" android:textColor="?pasteColorAccessory" android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawablePadding="8.0dip" android:layout_weight="1.0" />
+    <com.spotify.paste.spotifyicon.SpotifyIconView android:layout_gravity="center_vertical" android:id="@id/download_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:iconColor="?pasteColorAccessory" app:iconSize="24.0dip" app:iconType="icon_download_24" />
+    <com.spotify.paste.spotifyicon.SpotifyIconView android:layout_gravity="center_vertical" android:id="@id/context_menu_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:iconColor="?pasteColorAccessory" app:iconSize="24.0dip" app:iconType="icon_more_android_24" />
+</LinearLayout>

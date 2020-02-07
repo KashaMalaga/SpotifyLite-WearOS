@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/top_gradient_background_view" android:background="@drawable/context_menu_top_gradient" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="192.0dip" />
+    <com.spotify.android.glue.patterns.contextmenu.glue.FadingEdgeScrollView android:id="@id/scroll" android:background="@null" android:scrollbars="none" android:fadingEdge="vertical" android:fadingEdgeLength="32.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:requiresFadingEdge="vertical">
+        <com.spotify.android.glue.patterns.contextmenu.glue.GlueContextMenuLayout android:orientation="vertical" android:id="@id/panel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ProgressBar android:id="@id/progress_bar" android:padding="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateDrawable="@drawable/icn_loading_indicator" />
+        </com.spotify.android.glue.patterns.contextmenu.glue.GlueContextMenuLayout>
+    </com.spotify.android.glue.patterns.contextmenu.glue.FadingEdgeScrollView>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/top_bar_menu_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="4.0" android:minHeight="@dimen/context_menu_top_bar_height" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

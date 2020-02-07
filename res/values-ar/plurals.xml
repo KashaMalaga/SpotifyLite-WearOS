@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="error_dialog_body_resend_limit">
+        <item quantity="other">انتظر %1$d ثانية، ثم أطلب رمزاً جديداً</item>
+        <item quantity="zero">انتظر %1$d ثانية، ثم أطلب رمزاً جديداً</item>
+        <item quantity="one">انتظر ثانية واحدة، ثم أطلب رمزاً جديداً</item>
+        <item quantity="two">انتظر ثانيتان، ثم أطلب رمزاً جديداً</item>
+        <item quantity="few">انتظر %1$d ثوانٍ، ثم أطلب رمزاً جديداً</item>
+        <item quantity="many">انتظر %1$d ثانية، ثم أطلب رمزاً جديداً</item>
+    </plurals>
+    <plurals name="favorite_shows_downloaded_episodes_subtitle">
+        <item quantity="other">%1$d حلقة</item>
+        <item quantity="zero">لا توجد حلقات</item>
+        <item quantity="one">حلقة واحدة</item>
+        <item quantity="two">حلقتان</item>
+        <item quantity="few">%1$d حلقات</item>
+        <item quantity="many">%1$d حلقة</item>
+    </plurals>
+    <plurals name="favorite_songs_description">
+        <item quantity="other">%1$d أغنية مفضلة</item>
+        <item quantity="zero">%1$d أغنية مفضلة</item>
+        <item quantity="one">%1$d أغنية مفضلة</item>
+        <item quantity="two">%1$d أغنية مفضلة</item>
+        <item quantity="few">%1$d أغاني مفضلة</item>
+        <item quantity="many">%1$d أغنية مفضلة</item>
+    </plurals>
+    <plurals name="language_onboarding_selected_count">
+        <item quantity="other">%1$d لغة تمّ اختيارها</item>
+        <item quantity="zero">لا توجد لغة تمّ اختيارها</item>
+        <item quantity="one">لغة واحدة تمّ اختيارها</item>
+        <item quantity="two">لغتان تمّ اختيارهما</item>
+        <item quantity="few">%1$d لغات تمّ اختيارها</item>
+        <item quantity="many">%1$d لغة تمّ اختيارها</item>
+    </plurals>
+    <plurals name="offline_notification_body">
+        <item quantity="other">%1$,d من %2$,d (%3$,d%% مكتمل)</item>
+        <item quantity="zero">%1$,d من %2$,d (%3$,d%% مكتمل)</item>
+        <item quantity="one">%1$,d من %2$,d (%3$,d%% مكتمل)</item>
+        <item quantity="two">%1$,d من %2$,d (%3$,d%% مكتمل)</item>
+        <item quantity="few">%1$,d من %2$,d (%3$,d%% مكتمل)</item>
+        <item quantity="many">%1$,d من %2$,d (%3$,d%% مكتمل)</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="other">أرسلنا رسالة نصيّة قصيرة بها كود مكون من %1$d رقم على %2$s</item>
+        <item quantity="zero">أرسلنا رسالة نصيّة قصيرة بها كود مكون من %1$d رقم على %2$s</item>
+        <item quantity="one">أرسلنا رسالة نصيّة قصيرة بها كود مكون من رقم واحد على %2$s</item>
+        <item quantity="two">أرسلنا رسالة نصيّة قصيرة بها كود مكون من رقمين على %2$s</item>
+        <item quantity="few">أرسلنا رسالة نصيّة قصيرة بها كود مكون من %1$d أرقام على %2$s</item>
+        <item quantity="many">أرسلنا رسالة نصيّة قصيرة بها كود مكون من %1$d رقماً على %2$s</item>
+    </plurals>
+    <plurals name="time_format_hours">
+        <item quantity="other">%1$d ساعة</item>
+        <item quantity="zero">%1$d ساعة</item>
+        <item quantity="one">ساعة واحدة</item>
+        <item quantity="two">ساعتان</item>
+        <item quantity="few">%1$d ساعات</item>
+        <item quantity="many">%1$d ساعةً</item>
+    </plurals>
+    <plurals name="time_format_min">
+        <item quantity="other">%1$d دقيقة</item>
+        <item quantity="zero">%1$d دقيقة</item>
+        <item quantity="one">دقيقة واحدة</item>
+        <item quantity="two">دقيقتان</item>
+        <item quantity="few">%1$d دقائق</item>
+        <item quantity="many">%1$d دقيقة</item>
+    </plurals>
+</resources>

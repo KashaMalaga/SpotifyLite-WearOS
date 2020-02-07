@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_signup_dialog" android:padding="@dimen/std_16dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/std_16dp" android:text="@string/signup_v1_birth_date_hint" style="@style/SignupInputFieldLabelText" />
+    <DatePicker android:layout_gravity="center_horizontal" android:id="@id/datepicker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:spinnersShown="true" android:calendarViewShown="false" style="@style/SignUpDialogFragment.Datepicker" />
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:padding="@dimen/std_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:buttonBarStyle">
+        <Button android:textColor="@color/black" android:id="@id/signup_datepicker_cancel" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/choose_username_alert_cancel" android:filterTouchesWhenObscured="false" style="?android:buttonBarButtonStyle" />
+        <Button android:textColor="@color/blue_blue" android:id="@id/signup_datepicker_ok" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/choose_username_alert_ok" android:filterTouchesWhenObscured="false" style="?android:buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

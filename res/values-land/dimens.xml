@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14.0dip</dimen>
+    <dimen name="artist_badge_margin">9.0dip</dimen>
+    <dimen name="artist_badge_size">22.0dip</dimen>
+    <dimen name="cat_empty_view_accessory_margin_top">8.0dip</dimen>
+    <dimen name="cat_empty_view_drawable_margin_bottom">8.0dip</dimen>
+    <dimen name="glue_dialog_button_spacing">7.0dip</dimen>
+    <dimen name="glue_dialog_buttons_bottom_margin">12.0dip</dimen>
+    <dimen name="glue_dialog_buttons_margin_no_scroll">32.0dip</dimen>
+    <dimen name="glue_dialog_buttons_margin_scroll">24.0dip</dimen>
+    <dimen name="glue_dialog_content_horizontal_margin">40.0dip</dimen>
+    <dimen name="glue_dialog_content_vertical_margin">32.0dip</dimen>
+    <dimen name="glue_dialog_horizontal_window_margins">40.0dip</dimen>
+    <dimen name="glue_dialog_max_height">472.0dip</dimen>
+    <dimen name="glue_dialog_preferred_width">472.0dip</dimen>
+    <dimen name="glue_dialog_vertical_window_margins">16.0dip</dimen>
+    <dimen name="header_info_page_margin">0.0dip</dimen>
+    <dimen name="single_positive_button_margin">32.0dip</dimen>
+</resources>

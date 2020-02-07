@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="favorite_shows_downloaded_episodes_subtitle">
+        <item quantity="other">%1$d episod</item>
+    </plurals>
+    <plurals name="favorite_songs_description">
+        <item quantity="other">%1$d lagu kegemaran</item>
+    </plurals>
+    <plurals name="language_onboarding_selected_count">
+        <item quantity="other">%1$d dipilih</item>
+    </plurals>
+    <plurals name="offline_notification_body">
+        <item quantity="other">%1$,d daripada %2$,d (%3$,d%% lengkap)</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="other">Kami menghantar SMS dengan %1$d kod angka ke %2$s.</item>
+    </plurals>
+    <plurals name="time_format_hours">
+        <item quantity="other">%1$d jam</item>
+    </plurals>
+    <plurals name="time_format_min">
+        <item quantity="other">%1$d minit</item>
+    </plurals>
+</resources>

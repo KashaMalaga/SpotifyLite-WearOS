@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/artist_search_button_bg" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="64.0dip" android:contentDescription="@string/artist_search_hint_text"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.spotify.paste.spotifyicon.SpotifyIconView android:layout_gravity="start|center" android:id="@android:id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:layout_marginStart="16.0dip" app:iconColor="@color/white" app:iconSize="24.0dip" app:iconType="icon_search" />
+    <TextView android:textAppearance="?pasteTextAppearanceBodyMedium" android:ellipsize="end" android:gravity="start|center" android:layout_gravity="start|center" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/taste_picker_header_title" android:maxLines="1" android:layout_marginStart="16.0dip" app:autoSizeTextType="uniform" />
+</LinearLayout>

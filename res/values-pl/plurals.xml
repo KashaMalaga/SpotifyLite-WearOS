@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="favorite_shows_downloaded_episodes_subtitle">
+        <item quantity="other">%1$d odcinka</item>
+        <item quantity="one">%1$d odcinek</item>
+        <item quantity="few">%1$d odcinki</item>
+        <item quantity="many">%1$d odcinków</item>
+    </plurals>
+    <plurals name="favorite_songs_description">
+        <item quantity="other">%1$d ulubionego utworu</item>
+        <item quantity="one">%1$d ulubiony utwór</item>
+        <item quantity="few">%1$d ulubione utwory</item>
+        <item quantity="many">%1$d ulubionych utworów</item>
+    </plurals>
+    <plurals name="language_onboarding_selected_count">
+        <item quantity="other">%1$d wybranego</item>
+        <item quantity="one">%1$d wybrany</item>
+        <item quantity="few">%1$d wybrane</item>
+        <item quantity="many">%1$d wybranych</item>
+    </plurals>
+    <plurals name="offline_notification_body">
+        <item quantity="other">%1$,d z %2$,d (ukończono %3$,d%%)</item>
+        <item quantity="one">%1$,d z %2$,d (ukończono %3$,d%%)</item>
+        <item quantity="few">%1$,d z %2$,d (ukończono %3$,d%%)</item>
+        <item quantity="many">%1$,d z %2$,d (ukończono %3$,d%%)</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="other">Wysłaliśmy wiadomość SMS z %1$d-cyfrowym kodem na numer %2$s.</item>
+        <item quantity="one">Wysłaliśmy wiadomość SMS z %1$d-cyfrowym kodem na numer %2$s.</item>
+        <item quantity="few">Wysłaliśmy wiadomość SMS z %1$d-cyfrowym kodem na numer %2$s.</item>
+        <item quantity="many">Wysłaliśmy wiadomość SMS z %1$d-cyfrowym kodem na numer %2$s.</item>
+    </plurals>
+    <plurals name="time_format_hours">
+        <item quantity="other">%1$d godz.</item>
+        <item quantity="one">%1$d godz.</item>
+        <item quantity="few">%1$d godz.</item>
+        <item quantity="many">%1$d godz.</item>
+    </plurals>
+    <plurals name="time_format_min">
+        <item quantity="other">%1$d min.</item>
+        <item quantity="one">%1$d min.</item>
+        <item quantity="few">%1$d min.</item>
+        <item quantity="many">%1$d min.</item>
+    </plurals>
+</resources>

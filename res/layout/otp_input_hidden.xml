@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.libs.otp.ui.HiddenOtpEditText android:id="@id/otp_input_hidden" android:background="@null" android:layout_width="1.0dip" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:singleLine="true" android:digits="\ 0123456789" android:inputType="number" android:imeOptions="actionDone"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

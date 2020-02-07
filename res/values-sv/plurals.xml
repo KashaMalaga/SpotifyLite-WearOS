@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="favorite_shows_downloaded_episodes_subtitle">
+        <item quantity="other">%1$d avsnitt</item>
+        <item quantity="one">%1$d avsnitt</item>
+    </plurals>
+    <plurals name="favorite_songs_description">
+        <item quantity="other">%1$d favoritlåtar</item>
+        <item quantity="one">%1$d favoritlåt</item>
+    </plurals>
+    <plurals name="language_onboarding_selected_count">
+        <item quantity="other">%1$d valda</item>
+        <item quantity="one">%1$d vald</item>
+    </plurals>
+    <plurals name="offline_notification_body">
+        <item quantity="other">%1$,d av %2$,d (%3$,d %% färdigt)</item>
+        <item quantity="one">%1$,d av %2$,d (%3$,d %% färdigt)</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="other">Vi skickade ett sms med en %1$d-siffrig kod till %2$s.</item>
+        <item quantity="one">Vi skickade ett sms med en %1$d-siffrig kod till %2$s.</item>
+    </plurals>
+    <plurals name="time_format_hours">
+        <item quantity="other">%1$d tim</item>
+        <item quantity="one">%1$d tim</item>
+    </plurals>
+    <plurals name="time_format_min">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+    </plurals>
+</resources>

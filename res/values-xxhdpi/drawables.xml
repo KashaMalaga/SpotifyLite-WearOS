@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="bg_header_placeholder">@color/gray_7</item>
+    <item type="drawable" name="blue_jagged_background">@color/blue_dark</item>
+    <item type="drawable" name="glue_radio_circle_ripple_overlay">@android:color/transparent</item>
+    <item type="drawable" name="glue_radio_square_ripple_overlay">@android:color/transparent</item>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/white" />
+    <size android:height="@dimen/solar_button_small_height" />
+    <corners android:radius="@dimen/solar_button_small_corner_radius" />
+    <padding android:left="@dimen/solar_button_small_padding" android:top="0.0dip" android:right="@dimen/solar_button_small_padding" android:bottom="0.0dip" />
+</shape>

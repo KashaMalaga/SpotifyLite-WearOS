@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="favorite_shows_downloaded_episodes_subtitle">
+        <item quantity="other">%1$d jaksoa</item>
+        <item quantity="one">%1$d jakso</item>
+    </plurals>
+    <plurals name="favorite_songs_description">
+        <item quantity="other">%1$d suosikkikappaletta</item>
+        <item quantity="one">%1$d suosikkikappale</item>
+    </plurals>
+    <plurals name="language_onboarding_selected_count">
+        <item quantity="other">%1$d valittu</item>
+        <item quantity="one">%1$d valittu</item>
+    </plurals>
+    <plurals name="offline_notification_body">
+        <item quantity="other">%1$,d/%2$,d (%3$,d %% ladattu)</item>
+        <item quantity="one">%1$,d/%2$,d (%3$,d %% ladattu)</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="other">Lähetimme %1$d-numeroisen koodin tekstiviestillä numeroon %2$s.</item>
+        <item quantity="one">Lähetimme %1$d-numeroisen koodin tekstiviestillä numeroon %2$s.</item>
+    </plurals>
+    <plurals name="time_format_hours">
+        <item quantity="other">%1$d h</item>
+        <item quantity="one">%1$d h</item>
+    </plurals>
+    <plurals name="time_format_min">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+    </plurals>
+</resources>
