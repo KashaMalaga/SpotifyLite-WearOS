@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" android:installLocation="auto" package="com.spotify.lite" platformBuildVersionCode="29" platformBuildVersionName="10">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="23" android:compileSdkVersionCodename="6.0-2438415" android:installLocation="auto" package="com.spotify.lite" platformBuildVersionCode="29" platformBuildVersionName="10">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
@@ -7,7 +7,7 @@
     <uses-permission-sdk-23 android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
-    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:manageSpaceActivity="com.spotify.lite.features.settings.StorageSettingsActivity" android:name="com.spotify.lite.app.LiteApplication" android:supportsRtl="true" android:theme="@style/Theme.Lite">
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:manageSpaceActivity="com.spotify.lite.features.settings.StorageSettingsActivity" android:name="com.spotify.lite.app.LiteApplication" android:supportsRtl="true" android:theme="@style/Theme.Lite">
         <meta-data android:name="com.facebook.sdk.AutoLogAppEventsEnabled" android:value="false"/>
         <meta-data android:name="io.fabric.ApiKey" android:value="ed79a89851fe4ae8eb60f37284a088b1055997d8"/>
         <meta-data android:name="android.max_aspect" android:value="2.1"/>

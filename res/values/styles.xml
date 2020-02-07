@@ -940,7 +940,7 @@
         <item name="android:paddingLeft">16.0dip</item>
         <item name="android:paddingRight">16.0dip</item>
         <item name="android:layout_width">0.0dip</item>
-        <item name="android:minWidth">80.0dip</item>
+        <item name="android:minWidth">20.0dip</item>
         <item name="android:layout_weight">1.0</item>
     </style>
     <style name="Base.Widget.AppCompat.ActionButton" parent="@style/RtlUnderlay.Widget.AppCompat.ActionButton">
@@ -954,7 +954,7 @@
     </style>
     <style name="Base.Widget.AppCompat.ActionButton.CloseMode" parent="@style/Base.Widget.AppCompat.ActionButton">
         <item name="android:background">?controlBackground</item>
-        <item name="android:minWidth">56.0dip</item>
+        <item name="android:minWidth">30.0dip</item>
     </style>
     <style name="Base.Widget.AppCompat.ActionButton.Overflow" parent="@style/RtlUnderlay.Widget.AppCompat.ActionButton.Overflow">
         <item name="android:background">?actionBarItemBackground</item>
@@ -1003,8 +1003,8 @@
         <item name="android:background">@drawable/abc_btn_colored_material</item>
     </style>
     <style name="Base.Widget.AppCompat.Button.Small" parent="@style/Base.Widget.AppCompat.Button">
-        <item name="android:minWidth">48.0dip</item>
-        <item name="android:minHeight">48.0dip</item>
+        <item name="android:minWidth">24.0dip</item>
+        <item name="android:minHeight">24.0dip</item>
     </style>
     <style name="Base.Widget.AppCompat.ButtonBar" parent="@android:style/Widget">
         <item name="android:background">@null</item>
@@ -1171,7 +1171,7 @@
     <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation" parent="@android:style/Widget">
         <item name="android:background">?controlBackground</item>
         <item name="android:scaleType">center</item>
-        <item name="android:minWidth">56.0dip</item>
+        <item name="android:minWidth">30.0dip</item>
     </style>
     <style name="Base.Widget.Design.TabLayout" parent="@android:style/Widget">
         <item name="android:background">@null</item>
@@ -1212,7 +1212,7 @@
         <item name="chipIcon">@null</item>
         <item name="chipIconSize">24.0dip</item>
         <item name="chipIconVisible">true</item>
-        <item name="chipMinHeight">32.0dip</item>
+        <item name="chipMinHeight">16.0dip</item>
         <item name="chipStartPadding">4.0dip</item>
         <item name="chipStrokeColor">#00000000</item>
         <item name="chipStrokeWidth">0.0dip</item>

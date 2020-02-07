@@ -4361,6 +4361,7 @@
     <public type="string" name="com_facebook_loginview_log_out_button" id="0x7f110078" />
     <public type="string" name="com_facebook_loginview_logged_in_as" id="0x7f110079" />
     <public type="string" name="com_facebook_loginview_logged_in_using_facebook" id="0x7f11007a" />
+    <public type="string" name="APKTOOL_DUMMY_7b" id="0x7f11007b" />
     <public type="string" name="com_facebook_send_button_text" id="0x7f11007c" />
     <public type="string" name="com_facebook_share_button_text" id="0x7f11007d" />
     <public type="string" name="com_facebook_smart_device_instructions" id="0x7f11007e" />
@@ -4853,7 +4854,6 @@
     <public type="string" name="welcome_pager_1" id="0x7f110265" />
     <public type="string" name="welcome_pager_2" id="0x7f110266" />
     <public type="string" name="welcome_pager_3" id="0x7f110267" />
-    <public type="string" name="APKTOOL_DUMMY_7b" id="0x7f11007b" />
     <public type="style" name="AlertDialog.AppCompat" id="0x7f120000" />
     <public type="style" name="AlertDialog.AppCompat.Light" id="0x7f120001" />
     <public type="style" name="Animation.AppCompat.Dialog" id="0x7f120002" />

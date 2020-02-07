@@ -30,11 +30,11 @@
     <string name="actionbar_item_shuffle_play">Shuffle</string>
     <string name="add_to_playlist_create_playlist_button">Create playlist</string>
     <string name="add_to_playlist_failed">Oops, something went wrong!</string>
-    <string name="add_to_playlist_row_playlist_has_no_name"><i>Unnamed playlist</i></string>
+    <string name="add_to_playlist_row_playlist_has_no_name">" "<i>Unnamed playlist</i>" "</string>
     <string name="add_to_playlist_row_subtitle_owned_by_you">By you</string>
     <string name="add_to_playlist_title">Add to playlist</string>
     <string name="add_to_playlist_track_added_toast">Added to %s</string>
-    <string name="app_name">Spotify Lite</string>
+    <string name="app_name">Spotify Mod</string>
     <string name="app_rater_dialog_body">If you are enjoying %1$s (and we hope you are!), perhaps consider rating us 5 stars on Google Play.</string>
     <string name="app_rater_dialog_negative">No, Thanks</string>
     <string name="app_rater_dialog_positive">Rate us!</string>
@@ -123,6 +123,7 @@
     <string name="com_facebook_loginview_log_out_button">Log out</string>
     <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
     <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <item type="string" name="APKTOOL_DUMMY_7b">false</item>
     <string name="com_facebook_send_button_text">Send</string>
     <string name="com_facebook_share_button_text">Share</string>
     <string name="com_facebook_smart_device_instructions">To connect your account, open the Facebook app on your mobile device and check for notifications.</string>
@@ -447,11 +448,11 @@ Choose some music you like."</string>
     <string name="service_label_offline">Download Service</string>
     <string name="service_label_player">Player Service</string>
     <string name="settings_about">About</string>
-    <string name="settings_about_app_version_label">App Version</string>
+    <string name="settings_about_app_version_label">Xiaomi Mi Watch</string>
     <string name="settings_about_description">Spotify Lite version %s</string>
     <string name="settings_about_open_source_libraries">Open Source Libraries</string>
-    <string name="settings_about_privacy_policy">Privacy Policy</string>
-    <string name="settings_about_terms_and_conditions">Terms and Conditions</string>
+    <string name="settings_about_privacy_policy">Wear OS Mod</string>
+    <string name="settings_about_terms_and_conditions">Kasha</string>
     <string name="settings_about_update">Update</string>
     <string name="settings_account">Account</string>
     <string name="settings_account_description_free">Free account</string>
@@ -615,9 +616,8 @@ Keep the app open until it's done."</string>
     <string name="track_list_shuffled_track_in_album_description">Songs in \"%1$s\" will be shuffled with similar songs.</string>
     <string name="track_list_shuffled_track_row_subtitle">Spotify</string>
     <string name="track_list_shuffled_track_row_title">Shuffled Song</string>
-    <string name="track_list_track_has_no_name"><i>Unknown song</i></string>
+    <string name="track_list_track_has_no_name">" "<i>Unknown song</i>" "</string>
     <string name="welcome_pager_1">Play your favorite songs and artists</string>
     <string name="welcome_pager_2">Saves you data, battery and storage</string>
     <string name="welcome_pager_3">No credit card required</string>
-    <item type="string" name="APKTOOL_DUMMY_7b">false</item>
 </resources>
