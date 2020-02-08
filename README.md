@@ -6,4 +6,5 @@
  ![](https://img.imgur.com/IMEFdod.png)
  ![](https://img.imgur.com/FG0Yuzd.png)
  ![](https://img.imgur.com/QKZJ87a.png)
+ 
  Removed shuffle and repeat buttons and resize play/pause forward, prev, no more unpleasure touchs 
